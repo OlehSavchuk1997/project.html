@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>form simple</title>
+    </head>
+        <body>
+            <header>
+                <nav>
+                    <a href="index.html">Main Page</a>
+                </nav>
+            </header>
+            <main>
+                <h2>Опитування</h2>
+                <form method="POST" action="https://formspree.io/olehsavchuk1997@gmail.com" >
+                    <label for="client-name">Імя:</label>
+                    <input id="client-name" type="text" placeholder="name" 
+                    name="client-name"required>
+                    <label>
+                        Email: <input type="email" placeholder="email"
+                        name="client-email" required>
+                    </label>
+                    <br><br>
+                    
+                    <label>Стать:</label>
+                    <label><input type="radio" name="стать">Чоловік</label>
+                    <label><input type="radio" name="стать">Жінка</label>
+                    <br><br>
+                    <label>чи маєте ви водійські права:</label>
+                    <label>
+                        <input type="radio" name="чи маєте ви водійські права:"/>Так
+                    </label>
+                    <label>
+                        <input type="radio" name="чи маєте ви водійські права:"/>Ні
+                    </label>
+                    <br><br>
+                    <label>на чому ви їздите:</label>
+                    <label>
+                        <input type="radio" name="на чому ви їздите:"/>Авто
+                    </label>
+                    <label>
+                        <input type="radio" name="на чому ви їздите:"/>Мотоцикл
+                    </label>
+                    <label>
+                        <input type="radio" name="на чому ви їздите:"/>львівська маршрутка
+                    </label>
+                    <br><br>
+                    <label>оцініть свій рівень їзди:</label>
+                    <label>
+                        <input type="radio" name="оцініть свій рівень їзди:"/>початківць
+                    </label>
+                    <label>
+                        <input type="radio" name="оцініть свій рівень їзди:"/>відчуваю невпевненість в собі
+                    </label>
+                    <label>
+                        <input type="radio" name="оцініть свій рівень їзди:"/>шумахер
+                    </label>
+                    <br><br>
+                    <label>чи полюбляєте ви швидку їзду:</label>
+                    <label>
+                        <input type="radio" name="чи полюбляєте ви швидку їзду:"/>ні нелюблю швидкість
+                    </label>
+                    <label>
+                        <input type="radio" name="чи полюбляєте ви швидку їзду:"/>якщо є можливість,чому б і ні
+                    </label>
+                    <label>
+                        <input type="radio" name="чи полюбляєте ви швидку їзду:"/>завжди літаю по дорогах
+                    </label>
+                    
+                    <br><br>
+                    <input type="submit" value="відправити"/>
+                </form>
+            </main>
+    
+        </body>
+</html>
